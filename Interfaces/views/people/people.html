@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>People</h1>
+
+    <div class="container">
+        <form= class="row g-3 mt- 3"> 
+            
+             <div class="col-6">
+                <label for="TipoDocumento" class="form-label">Document Type</label> 
+                <!-- <input type="text" class="form-control" id="TipoDocumento" placeholder="Selecione Tipo de documento"> -->
+                <select class="form-select" aria-label="Default select example" >
+                    <option selected></option>
+                    <option value="1">Identification card</option>
+                    <option value="2">Identity Card</option>
+                    <option value="3">Record</option>
+                  </select>
+
+                  </div>
+
+                  <div class="col-6">
+                    <label for="TipoDocumento" class="form-label">Document Number</label>
+                    <input type="text" class="form-control" id="TipoDocumento" placeholder="Enter your document number">
+                 </div>
+            
+                 <div class="col-6">
+                    <label for="Nombre" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="TipoDocumento" placeholder="Write your name">
+                 </div>
+
+                 <div class="col-6">
+                    <label for="Apellido" class="form-label">Surnames</label>
+                    <input type="text" class="form-control" id="TipoDocumento" placeholder="Write your last names">
+                 </div>
+
+                 <div class="col-12">
+                    <label for="Emailinput" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="Emailinput" placeholder="Enter your Email">
+                 </div>
+
+                 <div class="col-6">
+                    <label for="Telefono" class="form-label">Phone</label>
+                    <input type="text" class="form-control" id="Telefono" placeholder="Enter your phone number">
+                 </div>
+
+                 <div class="col-6">
+                    <label for="FechaNacimiento" class="form-label">Birth date</label>
+                    <input type="date" class="form-control" id="FechaNacimiento" placeholder="">
+                 </div>
+
+
+
+        <div class="col-6"> 
+        <button type="button" class="btn btn- btn- btn-danger btn-lg me-md-2"onclick="PersonasCancelar()">Cancel</button>
+    </div>
+
+    <div class ="col-6">
+        <button type="button" class="btn btn btn-success btn-lg" onclick="PersonasGuardar()">submit</button>
+    </div>
+
+
+
+
+
+                
+
+
+ 
+
+ </form>
+  </div>
+                  
+                    
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="/Interfaces/js/people.js"></script>
+</html>
